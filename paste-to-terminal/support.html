@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <title>Support – Paste to Terminal</title>
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<main>
+  <nav><a href="./">Paste to Terminal</a><a href="privacy.html">Privacy</a></nav>
+
+  <h1>Support</h1>
+  <p class="muted">Paste to Terminal – for iTerm2</p>
+
+  <div class="card">
+    Questions or problems? Email <a href="mailto:apps@dalinis.com">apps@dalinis.com</a>.
+    Please include your macOS, Safari and iTerm2 versions.
+  </div>
+
+  <h2>Setting up</h2>
+  <ol>
+    <li>Open the Paste to Terminal app. Its window shows three steps and ticks each one when it's done.</li>
+    <li>In Safari, choose Safari → Settings → Extensions and tick <strong>Paste to Terminal</strong>.</li>
+    <li>Set it to <strong>Allow on All Websites</strong> (Safari → Settings → Websites → Paste to Terminal,
+      or click the extension's icon in Safari's toolbar).</li>
+    <li>When macOS asks whether Paste to Terminal may control iTerm2, click <strong>OK</strong>.</li>
+  </ol>
+
+  <h2>Using it</h2>
+  <p>Select text on a page, right-click, choose <strong>Paste to iTerm2</strong>, then the
+  window and tab. The text appears in that tab as a paste. Press Return yourself
+  when you're ready.</p>
+
+  <h2>Common questions</h2>
+
+  <p><strong>The menu says "allow this website, or reload the page".</strong><br>
+  Paste to Terminal checks the page for hidden text before sending, and Safari only
+  lets it do that on websites you've allowed. Allow it on all websites (see step 3
+  above). If you've just installed or updated the extension, reload pages that were
+  already open.</p>
+
+  <p><strong>The menu says "No iTerm2 windows open" or "Open iTerm2".</strong><br>
+  Open a window in iTerm2, or choose "Open iTerm2" from the menu, then right-click
+  again.</p>
+
+  <p><strong>Nothing arrives in iTerm2.</strong><br>
+  Check System Settings → Privacy &amp; Security → Automation → Paste to Terminal, and
+  make sure iTerm2 is switched on. The app's setup window shows this too.</p>
+
+  <p><strong>A notice said "hidden text will be removed".</strong><br>
+  Part of what you selected was hidden on the page, for example white-on-white or
+  zero-size text. Only the text you could see is sent. If you need the hidden part,
+  copy and paste it by hand.</p>
+
+  <p><strong>Why doesn't it press Return for me?</strong><br>
+  On purpose. Text from the web shouldn't run on its own. You read it, then decide.</p>
+
+  <p><strong>Does it work with tmux?</strong><br>
+  Yes. Text goes to the active pane of a tmux session running in the chosen tab.</p>
+
+  <p><strong>Does it work with Terminal.app or other terminals?</strong><br>
+  Not yet. This version supports iTerm2 only.</p>
+
+  <footer>© 2026 Peter Dalinis · <a href="privacy.html">Privacy policy</a></footer>
+</main>
+</body>
+</html>
