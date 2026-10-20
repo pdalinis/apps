@@ -45,8 +45,6 @@ nav a { margin-right: 16px; text-decoration: none; }
 @media (prefers-color-scheme: dark) {
   .store-badge img { outline: 1px solid #a6a6a6; border-radius: 6px; }
 }
-/* the .app rule above sizes icons; badges inside an app card keep their own size */
-.app .store-badge img { width: 156px; height: 40px; }
 footer {
   margin-top: 48px;
   padding-top: 16px;
